@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuites.TaskOneTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-07-22T08:35:21" hostname="Lionel-Mangoua.local" time="5.534">
+  <properties/>
+  <testcase name="GetListOfAllBreeds" classname="testSuites.TaskOneTest" time="3.103"/>
+  <testcase name="VerifyRetriever" classname="testSuites.TaskOneTest" time="1.183"/>
+  <testcase name="GetListOfSubBreeds" classname="testSuites.TaskOneTest" time="0.64"/>
+  <testcase name="GetImageRandom" classname="testSuites.TaskOneTest" time="0.438"/>
+  <system-out><![CDATA[
+=============== GetListOfAllBreeds test executed successfully ===============
+
+
+=============== VerifyRetriever test executed successfully ===============
+
+
+=============== GetListOfSubBreeds test executed successfully ===============
+
+
+=============== GetImageRandom test executed successfully ===============
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO main.java.Engine.DriverFactory - Setup .xlsx File Path: 'src/main/resources/excels/UserData.xlsx' successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - Setup Base URL successfully 
+
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get List Of All Breeds ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breeds/list/all
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": {
+        "pyrenees": [],
+        "affenpinscher": [],
+        "kuvasz": [],
+        "dingo": [],
+        "pug": [],
+        "husky": [],
+        "dachshund": [],
+        "greyhound": ["italian"],
+        "buhund": ["norwegian"],
+        "deerhound": ["scottish"],
+        "appenzeller": [],
+        "schipperke": [],
+        "stbernard": [],
+        "basenji": [],
+        "mountain": [
+            "bernese",
+            "swiss"
+        ],
+        "retriever": [
+            "chesapeake",
+            "curly",
+            "flatcoated",
+            "golden"
+        ],
+        "beagle": [],
+        "coonhound": [],
+        "dhole": [],
+        "rottweiler": [],
+        "airedale": [],
+        "elkhound": ["norwegian"],
+        "brabancon": [],
+        "springer": ["english"],
+        "whippet": [],
+        "mexicanhairless": [],
+        "boxer": [],
+        "labrador": [],
+        "kelpie": [],
+        "pointer": [
+            "german",
+            "germanlonghair"
+        ],
+        "chow": [],
+        "akita": [],
+        "shihtzu": [],
+        "bulldog": [
+            "boston",
+            "english",
+            "french"
+        ],
+        "briard": [],
+        "cattledog": ["australian"],
+        "leonberg": [],
+        "entlebucher": [],
+        "havanese": [],
+        "saluki": [],
+        "collie": ["border"],
+        "pekinese": [],
+        "bluetick": [],
+        "germanshepherd": [],
+        "weimaraner": [],
+        "schnauzer": [
+            "giant",
+            "miniature"
+        ],
+        "otterhound": [],
+        "australian": ["shepherd"],
+        "cockapoo": [],
+        "ovcharka": ["caucasian"],
+        "mastiff": [
+            "bull",
+            "english",
+            "tibetan"
+        ],
+        "sheepdog": [
+            "english",
+            "shetland"
+        ],
+        "eskimo": [],
+        "samoyed": [],
+        "corgi": ["cardigan"],
+        "malamute": [],
+        "papillon": [],
+        "chihuahua": [],
+        "lhasa": [],
+        "pembroke": [],
+        "spaniel": [
+            "blenheim",
+            "brittany",
+            "cocker",
+            "irish",
+            "japanese",
+            "sussex",
+            "welsh"
+        ],
+        "clumber": [],
+        "ridgeback": ["rhodesian"],
+        "keeshond": [],
+        "pitbull": [],
+        "dane": ["great"],
+        "redbone": [],
+        "waterdog": ["spanish"],
+        "bouvier": [],
+        "mix": [],
+        "komondor": [],
+        "malinois": [],
+        "cotondetulear": [],
+        "puggle": [],
+        "borzoi": [],
+        "poodle": [
+            "miniature",
+            "standard",
+            "toy"
+        ],
+        "groenendael": [],
+        "cairn": [],
+        "hound": [
+            "afghan",
+            "basset",
+            "blood",
+            "english",
+            "ibizan",
+            "plott",
+            "walker"
+        ],
+        "terrier": [
+            "american",
+            "australian",
+            "bedlington",
+            "border",
+            "dandie",
+            "fox",
+            "irish",
+            "kerryblue",
+            "lakeland",
+            "norfolk",
+            "norwich",
+            "patterdale",
+            "russell",
+            "scottish",
+            "sealyham",
+            "silky",
+            "tibetan",
+            "toy",
+            "westhighland",
+            "wheaten",
+            "yorkshire"
+        ],
+        "maltese": [],
+        "bullterrier": ["staffordshire"],
+        "finnish": ["lapphund"],
+        "african": [],
+        "newfoundland": [],
+        "shiba": [],
+        "pomeranian": [],
+        "pinscher": ["miniature"],
+        "setter": [
+            "english",
+            "gordon",
+            "irish"
+        ],
+        "frise": ["bichon"],
+        "vizsla": [],
+        "wolfhound": ["irish"],
+        "dalmatian": [],
+        "doberman": []
+    },
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get List Of All Breeds ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breeds/list/all
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": {
+        "pyrenees": [],
+        "affenpinscher": [],
+        "kuvasz": [],
+        "dingo": [],
+        "pug": [],
+        "husky": [],
+        "dachshund": [],
+        "greyhound": ["italian"],
+        "buhund": ["norwegian"],
+        "deerhound": ["scottish"],
+        "appenzeller": [],
+        "schipperke": [],
+        "stbernard": [],
+        "basenji": [],
+        "mountain": [
+            "bernese",
+            "swiss"
+        ],
+        "retriever": [
+            "chesapeake",
+            "curly",
+            "flatcoated",
+            "golden"
+        ],
+        "beagle": [],
+        "coonhound": [],
+        "dhole": [],
+        "rottweiler": [],
+        "airedale": [],
+        "elkhound": ["norwegian"],
+        "brabancon": [],
+        "springer": ["english"],
+        "whippet": [],
+        "mexicanhairless": [],
+        "boxer": [],
+        "labrador": [],
+        "kelpie": [],
+        "pointer": [
+            "german",
+            "germanlonghair"
+        ],
+        "chow": [],
+        "akita": [],
+        "shihtzu": [],
+        "bulldog": [
+            "boston",
+            "english",
+            "french"
+        ],
+        "briard": [],
+        "cattledog": ["australian"],
+        "leonberg": [],
+        "entlebucher": [],
+        "havanese": [],
+        "saluki": [],
+        "collie": ["border"],
+        "pekinese": [],
+        "bluetick": [],
+        "germanshepherd": [],
+        "weimaraner": [],
+        "schnauzer": [
+            "giant",
+            "miniature"
+        ],
+        "otterhound": [],
+        "australian": ["shepherd"],
+        "cockapoo": [],
+        "ovcharka": ["caucasian"],
+        "mastiff": [
+            "bull",
+            "english",
+            "tibetan"
+        ],
+        "sheepdog": [
+            "english",
+            "shetland"
+        ],
+        "eskimo": [],
+        "samoyed": [],
+        "corgi": ["cardigan"],
+        "malamute": [],
+        "papillon": [],
+        "chihuahua": [],
+        "lhasa": [],
+        "pembroke": [],
+        "spaniel": [
+            "blenheim",
+            "brittany",
+            "cocker",
+            "irish",
+            "japanese",
+            "sussex",
+            "welsh"
+        ],
+        "clumber": [],
+        "ridgeback": ["rhodesian"],
+        "keeshond": [],
+        "pitbull": [],
+        "dane": ["great"],
+        "redbone": [],
+        "waterdog": ["spanish"],
+        "bouvier": [],
+        "mix": [],
+        "komondor": [],
+        "malinois": [],
+        "cotondetulear": [],
+        "puggle": [],
+        "borzoi": [],
+        "poodle": [
+            "miniature",
+            "standard",
+            "toy"
+        ],
+        "groenendael": [],
+        "cairn": [],
+        "hound": [
+            "afghan",
+            "basset",
+            "blood",
+            "english",
+            "ibizan",
+            "plott",
+            "walker"
+        ],
+        "terrier": [
+            "american",
+            "australian",
+            "bedlington",
+            "border",
+            "dandie",
+            "fox",
+            "irish",
+            "kerryblue",
+            "lakeland",
+            "norfolk",
+            "norwich",
+            "patterdale",
+            "russell",
+            "scottish",
+            "sealyham",
+            "silky",
+            "tibetan",
+            "toy",
+            "westhighland",
+            "wheaten",
+            "yorkshire"
+        ],
+        "maltese": [],
+        "bullterrier": ["staffordshire"],
+        "finnish": ["lapphund"],
+        "african": [],
+        "newfoundland": [],
+        "shiba": [],
+        "pomeranian": [],
+        "pinscher": ["miniature"],
+        "setter": [
+            "english",
+            "gordon",
+            "irish"
+        ],
+        "frise": ["bichon"],
+        "vizsla": [],
+        "wolfhound": ["irish"],
+        "dalmatian": [],
+        "doberman": []
+    },
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: Verify retriever is within list 
+EXPECTED: chesapeake, curly, flatcoated, golden 
+ACTUAL: chesapeake, curly, flatcoated, golden
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get List Of Sub-Breeds ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breed/retriever/list
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": [
+        "chesapeake",
+        "curly",
+        "flatcoated",
+        "golden"
+    ],
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: list of sub-breeds for “retriever” is present 
+EXPECTED: Must not be null 
+ACTUAL: chesapeake, curly, flatcoated, golden
+[Test worker] INFO main.java.Engine.DriverFactory - ========================== Get Random Image ============================
+[Test worker] INFO main.java.Engine.DriverFactory - Method: GET
+---------------- URL ------------------
+https://dog.ceo/api/breed/retriever/golden/images/random
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- HEADERS ---------------
+{Content-Type=application/json}
+[Test worker] INFO main.java.Engine.DriverFactory - --------------- RESPONSE ---------------
+
+[Test worker] INFO main.java.Engine.DriverFactory - 
+{
+    "message": "https://images.dog.ceo/breeds/retriever-golden/n02099601_7019.jpg",
+    "status": "success"
+}
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: StatusCode 
+EXPECTED: 200 
+ACTUAL: 200
+[Test worker] INFO main.java.Engine.DriverFactory - ASSERT: link of Random Image is present 
+EXPECTED: Must have a .jpg file 
+ACTUAL: https://images.dog.ceo/breeds/retriever-golden/n02099601_7019.jpg
+]]></system-err>
+</testsuite>

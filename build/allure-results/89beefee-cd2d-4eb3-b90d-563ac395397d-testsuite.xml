@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1595406918078" stop="1595406944369">
+    <name>ABSA Assessment - Task 1 &amp; Task 2</name>
+    <test-cases>
+        <test-case start="1595406921325" stop="1595406924425" status="passed">
+            <name>GetListOfAllBreeds</name>
+            <description type="text">Perform an API request to produce a list of all dog breeds</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 1.a"/>
+                <label name="feature" value="ABSA Task 1"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406924582" stop="1595406925766" status="passed">
+            <name>VerifyRetriever</name>
+            <description type="text">Verify “retriever” breed is within the list</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 1.b"/>
+                <label name="feature" value="ABSA Task 1"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406925768" stop="1595406926408" status="passed">
+            <name>GetListOfSubBreeds</name>
+            <description type="text">Perform an API request to produce a list of sub-breeds for “retriever”</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 1.c"/>
+                <label name="feature" value="ABSA Task 1"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406926410" stop="1595406926848" status="passed">
+            <name>GetImageRandom</name>
+            <description type="text">Perform an API request to random image/link for the sub-breed “golden”</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 1.d"/>
+                <label name="feature" value="ABSA Task 1"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406926916" stop="1595406935427" status="passed">
+            <name>NavigateToUrl</name>
+            <description type="text">* Navigate to link</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.a"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406935431" stop="1595406935704" status="passed">
+            <name>ValidateUserListTable</name>
+            <description type="text">* Validate that you are on the User List Table</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.b"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406935710" stop="1595406936469" status="passed">
+            <name>ClickAddUser</name>
+            <description type="text">* Click Add user</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.c"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406936471" stop="1595406944228" status="passed">
+            <name>AddUsersToTable</name>
+            <description type="text">* Add users</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.d"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406944231" stop="1595406944234" status="passed">
+            <name>ValidateUserNameIsUnique</name>
+            <description type="text">* Ensure that User Name (*) is unique on each run</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.e"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+        <test-case start="1595406944235" stop="1595406944351" status="passed">
+            <name>ValidateUserAreAddedToList</name>
+            <description type="text">* Ensure that your users are added to the list</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Task 2.f"/>
+                <label name="feature" value="ABSA Task 2"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>

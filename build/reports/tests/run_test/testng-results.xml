@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ABSA Assessment - Task 1 &amp; Task 2" duration-ms="26283" started-at="2020-07-22T08:35:18Z" finished-at="2020-07-22T08:35:44Z">
+    <groups>
+    </groups>
+    <test name="Gradle test" duration-ms="26283" started-at="2020-07-22T08:35:18Z" finished-at="2020-07-22T08:35:44Z">
+      <class name="testSuites.TaskOneTest">
+        <test-method status="PASS" signature="startEngine()[pri:0, instance:testSuites.TaskOneTest@1ddf56fb]" name="startEngine" is-config="true" duration-ms="3193" started-at="2020-07-22T08:35:18Z" finished-at="2020-07-22T08:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method status="PASS" signature="GetListOfAllBreeds()[pri:0, instance:testSuites.TaskOneTest@1ddf56fb]" name="GetListOfAllBreeds" duration-ms="3103" started-at="2020-07-22T08:35:21Z" finished-at="2020-07-22T08:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetListOfAllBreeds -->
+        <test-method status="PASS" signature="VerifyRetriever()[pri:1, instance:testSuites.TaskOneTest@1ddf56fb]" name="VerifyRetriever" duration-ms="1183" started-at="2020-07-22T08:35:24Z" finished-at="2020-07-22T08:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRetriever -->
+        <test-method status="PASS" signature="GetListOfSubBreeds()[pri:2, instance:testSuites.TaskOneTest@1ddf56fb]" name="GetListOfSubBreeds" duration-ms="640" started-at="2020-07-22T08:35:25Z" finished-at="2020-07-22T08:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetListOfSubBreeds -->
+        <test-method status="PASS" signature="GetImageRandom()[pri:3, instance:testSuites.TaskOneTest@1ddf56fb]" name="GetImageRandom" duration-ms="438" started-at="2020-07-22T08:35:26Z" finished-at="2020-07-22T08:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetImageRandom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuites.TaskOneTest@1ddf56fb]" name="tearDown" is-config="true" duration-ms="2709" started-at="2020-07-22T08:35:44Z" finished-at="2020-07-22T08:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TaskOneTest -->
+      <class name="testSuites.TaskTwoTest">
+        <test-method status="PASS" signature="startEngine()[pri:0, instance:testSuites.TaskTwoTest@5f78a4f6]" name="startEngine" is-config="true" duration-ms="65" started-at="2020-07-22T08:35:26Z" finished-at="2020-07-22T08:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startEngine -->
+        <test-method status="PASS" signature="NavigateToUrl()[pri:4, instance:testSuites.TaskTwoTest@5f78a4f6]" name="NavigateToUrl" duration-ms="8511" started-at="2020-07-22T08:35:26Z" finished-at="2020-07-22T08:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUrl -->
+        <test-method status="PASS" signature="ValidateUserListTable()[pri:5, instance:testSuites.TaskTwoTest@5f78a4f6]" name="ValidateUserListTable" duration-ms="273" started-at="2020-07-22T08:35:35Z" finished-at="2020-07-22T08:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserListTable -->
+        <test-method status="PASS" signature="ClickAddUser()[pri:6, instance:testSuites.TaskTwoTest@5f78a4f6]" name="ClickAddUser" duration-ms="760" started-at="2020-07-22T08:35:35Z" finished-at="2020-07-22T08:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAddUser -->
+        <test-method status="PASS" signature="AddUsersToTable()[pri:7, instance:testSuites.TaskTwoTest@5f78a4f6]" name="AddUsersToTable" duration-ms="7757" started-at="2020-07-22T08:35:36Z" finished-at="2020-07-22T08:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUsersToTable -->
+        <test-method status="PASS" signature="ValidateUserNameIsUnique()[pri:8, instance:testSuites.TaskTwoTest@5f78a4f6]" name="ValidateUserNameIsUnique" duration-ms="4" started-at="2020-07-22T08:35:44Z" finished-at="2020-07-22T08:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserNameIsUnique -->
+        <test-method status="PASS" signature="ValidateUserAreAddedToList()[pri:9, instance:testSuites.TaskTwoTest@5f78a4f6]" name="ValidateUserAreAddedToList" duration-ms="116" started-at="2020-07-22T08:35:44Z" finished-at="2020-07-22T08:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserAreAddedToList -->
+      </class> <!-- testSuites.TaskTwoTest -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- ABSA Assessment - Task 1 & Task 2 -->
+</testng-results>
