@@ -67,8 +67,8 @@ Reference: https://docs.qameta.io/allure/
 
 2. From the terminal, navigate to the project root:
 
-	e.g. $ cd ~/Documents/Projects/Java/AbsaTest
+	e.g. ```cd ~/Documents/Projects/Java/AbsaTest```
 	
 3. Execute the terminal command: 
 
-	$ allure serve ./build/allure-results/ 
+	```allure serve ./build/allure-results/```
